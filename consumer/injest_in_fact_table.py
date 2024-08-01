@@ -8,7 +8,7 @@ subscriber = pubsub_v1.SubscriberClient()
 publisher = pubsub_v1.PublisherClient()
 
 # Project and Topic details
-project_id = "big-data-projects-411817"
+project_id = "Real-Time-Data-Proc-Pipeline"
 subscription_name = "payments_data-sub"
 subscription_path = subscriber.subscription_path(project_id, subscription_name)
 dlq_topic_path = publisher.topic_path(project_id, "dlq_payments_data")

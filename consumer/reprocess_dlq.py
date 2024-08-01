@@ -7,7 +7,7 @@ from cassandra.auth import PlainTextAuthProvider
 subscriber = pubsub_v1.SubscriberClient()
 
 # Project and Topic details
-project_id = "big-data-projects-411817"
+project_id = "Real-Time-Data-Proc-Pipeline"
 subscription_name = "dlq_payments_data-sub"
 subscription_path = subscriber.subscription_path(project_id, subscription_name)
 
